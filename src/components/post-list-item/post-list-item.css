@@ -15,7 +15,7 @@
     outline: none;
 }
 .app-list-item .btn-star {
-    color: #FFD700;
+    color: #696969;
 }
 .app-list-item .btn-trash {
     color: red;
@@ -37,7 +37,7 @@
   line-height: 35px;
   cursor: pointer;
   user-select: none;
-  transition: 0.5s all;
+  /*  */
 }
 
 .app-list-item.like .fa-heart {
@@ -46,9 +46,11 @@
 }
 
 .app-list-item.important .app-list-item-label {
-  color: #FFD700;
+  color: #212529;
+  font-weight: bold;
+  transition: 0.5s all;
 }
 
 .app-list-item.important .btn-star {
-    color: #aeaeae;
+    color: #FF8C00;
 }
